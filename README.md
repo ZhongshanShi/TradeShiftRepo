@@ -47,3 +47,6 @@ Each node object contains Id, value, parentNode, childrenNode, height.
         "height": 2
     }
 ]
+
+![image](https://user-images.githubusercontent.com/55010634/138938360-8002196d-3c7a-4c15-baab-ab24c72ef2ef.png)
+

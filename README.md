@@ -17,6 +17,30 @@ Each node object contains Id, value, parentNode, childrenNode, height.
 
 [
     {
+        "id": 1,
+        "val": 101,
+        "parentId": 0,
+        "height": 1
+    },
+    {
+        "id": 4,
+        "val": 104,
+        "parentId": 1,
+        "height": 2
+    },
+    {
+        "id": 5,
+        "val": 105,
+        "parentId": 1,
+        "height": 2
+    },
+    {
+        "id": 2,
+        "val": 102,
+        "parentId": 0,
+        "height": 1
+    },
+    {
         "id": 3,
         "val": 103,
         "parentId": 2,

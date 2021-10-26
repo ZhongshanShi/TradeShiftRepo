@@ -21,7 +21,7 @@ class changeParent extends Component {
         const {givenNodeId, targetNodeId} = this.state;
         return NodeService.changeParent(givenNodeId,targetNodeId).then(({status,message})=> {
             if(status === 'Success') {
-                // ts.ui.Notification.success('You did it!');
+                alert('woohoo, parent changed successfully')
             } else {
                 alert('pleae input correct data');
             }

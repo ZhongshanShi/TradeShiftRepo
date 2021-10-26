@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import NodeService from '../../services/NodeService';
-import './FindDescendants.css'
+import './FindDescendants.css';
+import tree from './nodetree.png';
 
 class FindDescendants extends Component {
     
@@ -28,6 +29,7 @@ class FindDescendants extends Component {
         const {showData} = this.state;
         return (
             <div>
+                <img className="photo" src={tree}/>
                 <form data-ts="Form">
                     <fieldset>
                         <label>

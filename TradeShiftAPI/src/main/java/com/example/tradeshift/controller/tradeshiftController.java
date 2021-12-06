@@ -23,7 +23,7 @@ public class tradeshiftController {
 
     @GetMapping("/healthCheck")
     public ResponseEntity<ResponseMessage> healthCheck(){
-        String message = "healthcheck！";
+        String message = "healthcheck for newBranch";
         return ResponseEntity.status(HttpStatus.OK).body(new ResponseMessage(200,message));
     }
 

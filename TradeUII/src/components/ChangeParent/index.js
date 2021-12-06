@@ -32,7 +32,7 @@ class changeParent extends Component {
     render() {
         return (
             <div>
-                <p>-----------------------------------------------------------------------</p>
+                <p>------------------------------this is for git -----------------------------------------</p>
                 <span>Change Parent Below</span>
                 <form data-ts="Form">
                     <fieldset>
